@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8ECC2"
+    tools:context=".ShoppingList">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/List_Nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B7FFC107"
+        app:itemIconTint="@color/colorNavigationMenu"
+        app:itemTextColor="@color/colorNavigationMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/list_bottom_navigation" />
+
+
+    <ListView
+        android:id="@+id/shop_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/List_Nav"
+        app:layout_constraintBottom_toTopOf="@+id/List_Nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addMeal"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="Add New Meal"></item>
+    <item
+        android:id="@+id/main_nav_seeList"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="See List"
+        />
+
+</menu>

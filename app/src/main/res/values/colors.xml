@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#ECB309</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorNavigationMenu">#160700</color>
+    <color name="colorDelete">#FF0000</color>
+    <color name="colorRecipeBook">#F8ECC2</color>
+</resources>

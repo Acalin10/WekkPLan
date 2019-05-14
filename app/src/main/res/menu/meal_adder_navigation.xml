@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/meal_cancel"
+        android:icon="@drawable/ic_cancel_black_24dp"
+        android:title="Cancel"/>
+    <item
+    android:id="@+id/recipe_book"
+    android:icon="@drawable/ic_dashboard_black_24dp"
+    android:title="Recipe Book"/>
+    <item
+        android:id="@+id/meal_done"
+        android:icon="@drawable/ic_check_black_36dp"
+        android:title="Save and Select day"
+        />
+</menu>
